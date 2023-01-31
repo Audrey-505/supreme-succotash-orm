@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { toSafeInteger } = require('lodash');
+//const { toSafeInteger } = require('lodash');
 const { Tag, Product, ProductTag } = require('../../models');
 
 // The `/api/tags` endpoint
